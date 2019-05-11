@@ -1,0 +1,124 @@
+main .contenedor_4 table tr td{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 4px; 
+}
+main .contenedor_4 table tr td label{
+    font-weight: bold;
+}
+
+    
+main .contenedor_4 table tr td input{
+    border: 1px solid #FFF;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+main .contenedor_4 form div{
+
+    margin:35px auto;
+    height: 10%;
+    font-size: 20px;
+}
+main .contenedor_4 table tr td button{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+    justify-content: center;
+}
+
+main .contenedor_4 form .subcontenedor_4 {
+    width: 35%;
+    height: auto;
+
+}
+main .contenedor_4 form .subcontenedor_4 tr td{
+    width: 35%;
+    height: 100%;
+  
+}
+
+main .contenedor_4 form .subcontenedor_4 tr td button{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;
+
+
+}
+
+
+main .contenedor_4 tr:hover{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    background-color: beige;
+    color: black;
+    
+}
+main .contenedor_4 button:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    background-color:darkslategrey;
+}
+
+footer div button {
+    width: 35%;
+    height: 5%;
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+footer div button:hover {
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+    background-color:darkslategrey;
+}
+
+ @media (min-width:360px)
+ {
+     header .contenedor_4{
+        width: 780px;
+        height: 50px;
+        background-color: #333;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+     }
+     .contenedor_4{
+         width: auto;
+         position: relative;
+     }
+     .contenedor_4 table tr th,th{
+        border: 1px solid black;
+        border-radius: 4px; 
+        margin: 2px;
+        padding: 2px;
+        font-size: 40px;
+     }
+     
+     footer div button{
+        width: 20%;
+        height: 5%;
+        border-radius: 4px;
+        margin: 10px auto;
+        font-size: 20px;
+        font-weight: 100;
+     }
+ }

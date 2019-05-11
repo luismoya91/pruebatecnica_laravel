@@ -1,0 +1,126 @@
+.contenedor_4{
+    width: 100%;
+    margin: auto;
+}
+
+main .contenedor_4{
+    margin-top: 50px;
+    position: relative;
+}
+
+main .contenedor_4 h2{
+    margin: 35px auto;
+    padding:50px;
+    width: 100%;
+    height: 20%;
+    font-size: 40px;
+}
+
+main .contenedor_4 form{
+    width: 100%;
+    height: auto;
+}
+
+main .contenedor_4 caption{
+    margin-top: 50px;
+    font-size: 30px;
+    
+}
+
+main .contenedor_4 table{
+    margin: 50px auto;
+    width: 90%;
+    height: 15%;
+    padding: 0px;
+    display:table;
+    border: 1px solid #FFF;
+}
+main .contenedor_4 table tr td,th{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    
+}
+main .contenedor_4 table tr th{
+    border: 1px solid black;
+    border-radius: 4px; 
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+}
+main .contenedor_4 table tr td{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 4px; 
+}
+    
+main .contenedor_4 table tr td input{
+    border: 1px solid #FFF;
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+main .contenedor_4 form div{
+
+    margin:35px auto;
+    height: 10%;
+    font-size: 20px;
+}
+main .contenedor_4 table tr td a button{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+main .contenedor_4 tr:hover{
+    border: 1px solid black;
+    margin: 2px;
+    padding: 2px;
+    font-size: 20px;
+    background-color: beige;
+    color: black;
+    
+}
+main .contenedor_4 button:hover{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+    background-color:darkslategrey;
+}
+
+footer div button {
+    width: 35%;
+    height: 5%;
+    border-radius: 4px;
+    margin: 10px auto;
+    font-size: 20px;
+    font-weight: 100;
+    
+}
+
+ @media (min-width:780px)
+ {
+     .contenedor_4{
+         width: 780px;
+         position: relative;
+     }
+     footer div button{
+        width: 20%;
+        height: 5%;
+        border-radius: 4px;
+        margin: 10px auto;
+        font-size: 20px;
+        font-weight: 100;
+     }
+ }
