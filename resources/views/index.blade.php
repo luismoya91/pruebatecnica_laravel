@@ -19,7 +19,7 @@
         <section id="blog">
             <div class="contenedor">
                 <article>
-                    <a href="/registrar">
+                    <a href="{{route('registrar')}}">
                         <button>
                             <img src="css/img/registrar.jpg">
                         </button>
@@ -27,7 +27,7 @@
                     </a>
                 </article>
                 <article>
-                    <a href="/modificar">
+                    <a href="{{route('modificar')}}">
                         <button>
                         <img src="css/img/modificar.jpg">
                         </button>
@@ -35,7 +35,7 @@
                     </a>
                 </article>
                 <article>
-                    <a href="/eliminar">
+                    <a href="{{route('eliminar')}}">
                         <button>
                             <img src="css/img/eliminar.jpg">                
                         </button>
@@ -46,7 +46,7 @@
         </section>
         <footer>
             <div align="center">
-	            <a href="/"><button>Salir</button></a>
+	            <a href="{{route('login')}}"><button>Salir</button></a>
 	        </div>
          </footer>
     </div>

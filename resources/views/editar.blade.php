@@ -37,7 +37,7 @@
                                 <td>{{$good->name}}</td>
                                 <td>{{$good->description}}</td>
                                 <td>{{$good->value}}</td>
-                                <td><button><a href="/mod/{{$good->id}}">Editar</a>
+                                <td><button><a href="{{route('mod/',$good->id)}}">Editar</a>
                                     </button>
                                 </td>   	
                             </tr>
@@ -48,7 +48,7 @@
     </div>     
     <footer>
         <div align="center">
-	        <a href="/index"><button>Volver</button></a>
+	        <a href="{{route('index')}}"><button>Volver</button></a>
 	    </div>
     </footer>
         <script src="js/sweetalert.min.js"></script>

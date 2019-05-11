@@ -18,7 +18,7 @@
             <div class="title m-b-md">
                 Prueba Tecnica Luis Miguel Moya
             </div>
-            <form class="form1" method="POST" action="/logeo" >
+            <form class="form1" method="POST" action="{{route('logeo')}}" >
 				<table>
 					<caption>LOGIN INGRESO</caption>
 					<tr>

@@ -49,7 +49,7 @@
         </main>
         <footer>
             <div align="center">
-			 <a href="/index"><button>Volver</button></a>
+			 <a href="{{route('index')}}"><button>Volver</button></a>
 		</div>
         </footer>
         <script src="js/sweetalert.min.js"></script>

@@ -24,7 +24,7 @@
                 Modificar registro tabla "goods"
                 Registro N° {{$goods->id}}  
             </h2>
-                <form class="form1" action="/mod_reg/{{$goods->id}}" method="post">
+                <form class="form1" action="{{route('mod_reg',$goods->id)}}" method="post">
             <table>	
                         <input type="hidden" name="_token" value="{{ Session::token() }}">				
                         <tr>
